@@ -1,0 +1,90 @@
+body{
+    background: #FFC60B;
+
+}
+
+
+
+.columns {
+    margin: 10rem auto;
+    margin-left: 10em;
+    margin-right: 2em;
+   display: grid;
+    grid-auto-flow: row;
+    gap: 2em;
+    text-align:center;
+   
+  }
+
+  @media (min-width: 55em) {
+    .columns {
+      grid-auto-flow: column;
+    box-sizing: border-box;
+    ;
+  }
+  .columns > div {
+    background: #444444;
+    padding: 1em;
+    border-bottom: 20px;
+    border-top: 20px;
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius:20px ;
+    
+}
+.columns > div:nth-child(1){
+    background:#FF8B00;
+    display: inline-block;
+    height: 450px;
+    margin-top: 125px;
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius:20px ;
+    
+  }
+  
+  .columns{
+    font-style:sans-serif;
+    font-size: 24px;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  
+
+  .sidenav {
+    
+    margin-top: 22.5%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+   
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .h2 {
+    text-align: center;
+    float: inline-start;
+    display: block;
+  }

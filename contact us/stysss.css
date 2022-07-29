@@ -1,0 +1,34 @@
+.tabs {
+  border: 1px solid #cccccc;
+  display: flex;
+}
+.tabs-sidebar {
+  width: 125px;
+}
+.tabsbutton {
+  display: block;
+  padding: 18px;
+  background: #eeeeee;
+  border: none;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+.tabsbutton:active {
+  background: #dddd;
+}
+.tabsbutton:not(last-of-type) {
+  border-bottom: 1px solid #cccccc;
+}
+.tabsbutton--active {
+  font-weight: bold;
+  border-right: 2px solid #ffe100;
+}
+.tabscontent {
+  padding: 15px;
+  font-size: 0.8rem;
+  display: none;
+}
+.tabscontent--active {
+  display: block;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="sweetalert.min.js"></script>
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="text1">
+        <h1>Technological Institute of The Philippines</h1>
+
+        <div class="logo">
+          <img src="logo (1).png" alt="" />
+          <br />
+        </div>
+        <div class="navlinks">
+          <ul>
+            <li><a href="/homepage.html"> Home │</a></li>
+            <li><a href="/About/about.html"> About TIP │</a></li>
+            <li>
+              <a href="/Programs_Offerings/Programs_Offerings .html">
+                Programs Offerings │</a
+              >
+            </li>
+            <li>
+              <a href="/abet/AbetAcredit.html"> ABET-Accredited Programs │</a>
+            </li>
+            <li><a href="/Admission/Untitled-1.html"> Admission │</a></li>
+            <li><a href="/News/news.html"> News │</a></li>
+            <li><a href="/contact us/contactus.html"> Contact Us │</a></li>
+            <li>
+              <a href="https://technocore.tip.edu.ph/"> TIP TechnoCoRe │</a>
+            </li>
+            <li>
+              <a href="https://careercenter.tip.edu.ph/"> TIP Career Center </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <br /><br />
+      <br /><br />
+      <div class="navg">
+        <ul>
+          <li><a href="https://library.tip.edu.ph/">LIBRARY│</a></li>
+          <li>
+            <a
+              href="https://accounts.google.com/AddSession?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&hd=tip.edu.ph&sacu=1"
+              >TIP E-MAIL│</a
+            >
+          </li>
+          <li>
+            <a href="https://webqc2.tip.edu.ph/portal/aris/index.php">ARIS</a>
+          </li>
+        </ul>
+      </div>
+      <div id="tabs">
+        <h1 class="title">Contact Us</h1>
+
+        <div class="mapouter">
+          <h2>Get in touch</h2>
+          <hr />
+          <div class="direction">
+            <h3><u>Quezon City Campus</u></h3>
+
+            <p class="fa fa-map-marker">
+              938 Aurora Boulevard, Cubao, Quezon City
+            </p>
+            <br />
+
+            <p class="fa fa-phone">(+632) 8911-0964 / (+632) 8912-1573</p>
+            <br />
+            <p class="fa fa-envelope">tipwebteam@tip.edu.ph</p>
+            <br />
+            <a
+              href="https://twitter.com/TIP1962official"
+              class="fa fa-twitter"
+            ></a>
+            <a
+              href="https://www.facebook.com/TIP1962official/"
+              class="fa fa-facebook"
+            ></a>
+          </div>
+          <div class="Message">
+            <p>Leave us a message</p>
+            <br />
+            <input type="text" id="Name" placeholder="Name" /><br />
+            <br />
+            <input type="text" id="Email" placeholder="Email" /> <br />
+            <br />
+            <br />
+
+            <textarea
+              name=""
+              id="text"
+              cols="30"
+              rows="10"
+              placeholder=" Write your message here"
+            ></textarea>
+            <br />
+            <form
+              method="POST"
+              action="do-something.php"
+              onsubmit="return submitForm(this);"
+            >
+              <input type="submit" />
+            </form>
+          </div>
+
+          <div class="gmap_canvas3">
+            <iframe
+              width="300"
+              height="200"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=Technological%20Institute%20of%20the%20Philippines%20-%20Quezon%20City%20938%20Aurora%20Blvd,%20Cubao,%20Quezon%20City,%201109%20Metro%20Manila&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <img src="tip-mobile-logo.jpg" alt="" />
+        <h3>The future begins here.</h3>
+        _________________
+        <p>Connect with us</p>
+        <ul class="socials">
+          <li>
+            <a
+              href="https://www.facebook.com/TIP1962official/"
+              class="fa fa-facebook"
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/TIP1962official" class="fa fa-twitter">
+            </a>
+          </li>
+          <li><a href="contactus.html" class="fa fa-phone"> </a></li>
+        </ul>
+        _________________
+      </div>
+      <div class="footerbottom">
+        <p>Copyright©2021. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script>
+      function submitForm(form) {
+        swal({
+          title: "Success!",
+          text: "The message has been sent.",
+          icon: "success",
+        }).then((isOkay) => {
+          if (isOkay) {
+            return false();
+          }
+        });
+        return false;
+      }
+    </script>
+  </body>
+</html>
